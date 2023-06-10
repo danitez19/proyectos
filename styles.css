@@ -1,0 +1,45 @@
+body{
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    background:rgba(0, 0, 0, 0.6)url(money.jpg);
+    background-blend-mode: darken;
+}
+img {
+    opacity: 50%;
+}
+.form-cal{
+    width: 400px;
+    height: 300px;
+    background-color: #E8F8F5;
+    margin: auto;
+    margin-top: 120px;
+    box-shadow: 5px 5px 5px;
+    padding: 30px 30px 30px;  
+    border-radius: 15px;
+}
+.form-cal h1 {
+text-align: center;
+text-shadow: 0.5px 0.5px 0.5px;      
+
+}
+.form-cal p {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.buttons {
+    height: 30px; 
+    width: 100%;
+    border-radius: 5px;
+    border-color: aliceblue;
+    background-color: #D0ECE7;
+    box-shadow: 3px 3px 3px;    
+}
+
+.entradas {
+    height: 25px;
+    width: 30%;
+    background-color:#D0ECE7 ;
+    border-radius:5px ;
+    box-shadow: 0.5px 0.5px 0.5px;
+}
