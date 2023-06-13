@@ -3,7 +3,6 @@ body{
     background:rgba(0, 0, 0, 0.6)url(money.jpg);
     background-blend-mode: darken;
 }
-
 .form-cal{
     width: 400px;
     height: 300px;
