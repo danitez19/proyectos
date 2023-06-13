@@ -7,20 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
     <section class="form-cal">
         <h1>Calculadora de Propinas</h1>
         <p>Total de la cuenta : $
-            <input class="entradas" type="number">
+        <input class="entradas" type="number" id="totalCuenta" required>
         </p>
         <p>Porcentaje de la propina: %
-            <input class="entradas" type="number""></p>
-    <button class = "buttons">Calcular Propina</button>
-            <h4>Propina: $</h4>
+        <input class="entradas" type="number" id="porcPropina" required></p>
+        <button class="button" id="btnCalcular">Calcular Propina</button>
+        <h4>Propina: $
+        <div id="result"></output>
+        </h4>
     </section>
-    <script src=" script.js"></script>
+    <script defer src=" script.js"></script>
+    </script>
 </body>
+
 
 </html>
