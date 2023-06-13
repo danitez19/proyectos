@@ -3,9 +3,7 @@ body{
     background:rgba(0, 0, 0, 0.6)url(money.jpg);
     background-blend-mode: darken;
 }
-img {
-    opacity: 50%;
-}
+
 .form-cal{
     width: 400px;
     height: 300px;
@@ -27,7 +25,7 @@ text-shadow: 0.5px 0.5px 0.5px;
 
 }
 
-.buttons {
+.button {
     height: 30px; 
     width: 100%;
     border-radius: 5px;
