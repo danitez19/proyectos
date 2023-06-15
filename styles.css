@@ -20,8 +20,6 @@ text-shadow: 0.5px 0.5px 0.5px;
 }
 .form-cal p {
     font-size: large;
-    font-family: 'Times New Roman', Times, serif;
-
 }
 
 .button {
@@ -34,6 +32,13 @@ text-shadow: 0.5px 0.5px 0.5px;
 }
 
 .entradas {
+    height: 25px;
+    width: 30%;
+    background-color:#D0ECE7 ;
+    border-radius:5px ;
+    box-shadow: 0.5px 0.5px 0.5px;
+}
+.sel{
     height: 25px;
     width: 30%;
     background-color:#D0ECE7 ;
